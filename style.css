@@ -1,0 +1,45 @@
+/* EXERCICE 2 */
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+th, 
+td {
+    padding: 10px;
+}
+
+/* EXERCICE 3 */
+.container-square {
+    width: 120px;
+    height: 120px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.container-square div {
+    height: 50px;
+    width: 50px;
+}
+
+.container-square .square1 {
+    background-color: aquamarine;
+}
+
+/* EXERCICE 4 */
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+.contentToScroll {
+    height: 1000px;
+}
